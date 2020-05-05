@@ -21,7 +21,6 @@ public class servidor {
 	      System.out.println("Servidor iniciado, esperando conexión con un cliente.");
 	      System.out.println("");
 
-
 	      Socket socket = serversocket.accept();
 	      System.out.println("Conexión establecida con éxito.");
 	      System.out.println("");
