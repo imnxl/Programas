@@ -40,10 +40,10 @@ public class servidorchat {
 
 class administrar implements Runnable {
 
-	Server servidor;
+	servidorchat servidor;
 	InputStream cliente;
 
-	public administrar(Server servidor, InputStream cliente) {
+	public administrar(servidorchat servidor, InputStream cliente) {
 		this.servidor = servidor;
 		this.cliente = cliente;
 	}
